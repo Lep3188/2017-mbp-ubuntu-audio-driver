@@ -1,0 +1,34 @@
+mbp143-audio
+============
+
+Copyright (C) 2026 the mbp143-audio contributors.
+
+This package is a repackaging and extension of the snd_hda_macbookpro
+driver by David Joseph and contributors:
+
+    https://github.com/davidjo/snd_hda_macbookpro
+
+    Copyright (C) David Joseph
+    Licensed under the GNU General Public License, version 2.
+
+The files under src/apple/ and src/patches/ are derived from that project
+and retain their original copyright and licence. The Apple HDA verb/I2C
+initialisation tables were reverse-engineered from macOS AppleHDA.kext
+traces by the snd_hda_macbookpro authors.
+
+New in this package: the 6.17+ sound/hda build integration, kernel 7.0
+verification, installer, DKMS packaging, diagnostics, verification tooling
+and documentation. These are released under GPL-2.0 as well.
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option)
+any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+more details.
+
+You should have received a copy of the GNU General Public License along with
+this program; if not, see <https://www.gnu.org/licenses/>.
