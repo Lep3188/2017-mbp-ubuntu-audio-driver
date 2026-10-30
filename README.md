@@ -1,4 +1,4 @@
-# mbp143-audio
+# 2017 macbook pro  audio
 
 **Linux audio for the 2017 15-inch MacBook Pro (MacBookPro14,3) — and other
 Cirrus Logic CS8409 Macs.**
